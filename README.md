@@ -1,3 +1,3 @@
-This repository contains mostly-superseded development documentation, which remains informative for what the new documentation at [`otwarchive`'s `README.md#how-to-contribute`][1] doesn't cover. The source is stored in the `gh-pages` branch.
+This repository contains our [front end coding documentation](https://otwcode.github.io/docs/front_end_coding/).
 
-[1]: https://github.com/otwcode/otwarchive/blob/master/README.md#how-to-contribute
+For information on back end coding, please refer to the [otwarchive wiki](https://github.com/otwcode/otwarchive/wiki).
