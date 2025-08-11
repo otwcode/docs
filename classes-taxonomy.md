@@ -160,6 +160,7 @@ The abstract class `.object` encompasses classes that correspond with database r
   * .prompt
   * .item
   * .signup
+  * .assignment
 
 ### data
 
@@ -181,6 +182,7 @@ The abstract class `.data` encompasses classes that describe the type or format 
 * .notice
 * .error
 * .icon
+* .rss
 * .symbol
   * .help
   * .question
