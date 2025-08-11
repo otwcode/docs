@@ -80,7 +80,7 @@ An individual comment is always a `li` contained within an `ol`. These comment l
 
 To illustrate the HTML for threads, we'll diagram the following example. Each `li` with the `comment` class contains the HTML diagramed in the previous section.
 
-![Two top-level comments, with two direct reples to the second top-level comment. The second reply also has a reply.](/images/comment_thread_for_diagram.png)
+![Two top-level comments, with two direct reples to the second top-level comment. The second reply also has a reply.](../images/comment_thread_for_diagram.png)
 
 <div class="diagram">
   <ol>
