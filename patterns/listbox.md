@@ -101,6 +101,14 @@ The following diagram is taken from [an index of fandoms for a specific media ty
   </ol>
 </div>
 
+### HTML classes
+
+A listbox usually has an [object type class](../class-taxonomy#types): `work listbox group`, `assignment listbox group`, `reading listbox group`.
+
+These class names should almost always be singular. The main exception to this is tags: `tags index group`.
+
+If you find a plural other than `tags`, it's probably a mistake that needs to be corrected.
+
 ## Notes
 
 We call it listbox (instead of indexbox) because a listbox might be a dynamically inserted form or form component, and therefore would need managed focus. This seems most closely related to [the ARIA role listbox](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/listbox_role).
