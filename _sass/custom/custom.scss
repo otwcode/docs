@@ -1,0 +1,209 @@
+/* overrides */
+
+.table-wrapper {
+  box-shadow: none;
+}
+
+table {
+  border: 2px solid;
+  border-color: $grey-lt-300;
+  border-collapse: collapse;
+}
+
+caption {
+  font-size: $font-size-2;
+  text-transform: uppercase;
+}
+
+th, td {
+  min-width: auto;
+}
+
+th:first-of-type, td:first-of-type {
+  border-left: 2px solid;
+  border-color: $grey-lt-300;
+}
+
+td:last-of-type {
+  border-right: 2px solid;
+  border-color: $grey-lt-300;
+}
+
+th {
+  border: 2px solid;
+  border-color: $grey-lt-300;
+  font-weight: 700;
+  text-align: left;
+}
+
+thead th {
+  text-align: center;
+}
+
+tbody td {
+  background: $grey-lt-100;
+  border: 2px solid;
+  border-color: $white;
+}
+
+tbody tr:hover td {
+  background: $grey-lt-300;
+}
+
+/* diagrams */
+
+.diagram ul, .diagram ol {
+  margin: 0 auto;
+  padding-left: 0;
+  width: 95%;
+}
+
+.diagram li, .diagram span, p.diagram {
+  background: $grey-lt-000;
+  border: $border;
+  border-color: $grey-lt-300;
+  margin: $sp-1;
+  padding: $sp-1;
+}
+
+.diagram li::before {
+  content: none !important;
+}
+
+.diagram li {
+  display: block;
+}
+
+.diagram li:hover, .diagram span:hover {
+  background: $white;
+  transition: all 0.2s ease-in;
+}
+
+li.emphasize {
+  border-width: 3px;
+}
+
+.diagram code {
+  display: block;
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.diagram span code {
+  display: inline-block;
+}
+
+/* swatches */
+
+.swatches li::before {
+  content: none !important;
+}
+
+ul.messages li {
+  margin: 1em auto;
+  padding: 0.25em;
+}
+
+/* examples */
+
+.serif {
+  font-family: serif !important;
+}
+
+.georgia {
+  font-family: Georgia, serif !important;
+}
+
+.sans-serif {
+  font-family: sans-serif !important;
+}
+
+.lucida-grande {
+  font-family: 'Lucida Grande', sans-serif !important;
+}
+
+.lucida-sans {
+  font-family: 'Lucida Sans Unicode', sans-serif !important;
+}
+
+.gnu-unifont {
+  font-family: 'GNU Unifont', sans-serif !important;
+}
+
+.verdana {
+  font-family: Verdana, sans-serif !important;
+}
+
+.helvetica {
+  font-family: Helvetica, sans-serif !important;
+}
+
+.monospace {
+  font-family: monospace !important;
+}
+
+.monaco {
+  font-family: Monaco, monospace !important;
+}
+
+.consolas {
+  font-family: Consolas, monospace !important;
+}
+
+.courier {
+  font-family: Courier, monospace !important;
+}
+
+.red {
+  background: #900 !important;
+  color: #fff !important;
+}
+
+.white {
+  background: #fff !important;
+}
+
+.black {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.light-gray-ddd {
+  background: #ddd !important;
+}
+
+.dark-gray-333 {
+  background: #333 !important;
+}
+
+.dark-gray-2a2a2a{
+  background: #2a2a2a !important;
+  color: #fff !important;
+}
+
+.darkest-gray-111 {
+  background: #111 !important;
+  color: #fff !important;
+}
+
+.blue {
+  background: #95c6f4 !important;
+  color: #fff !important;
+}
+
+.lightest-grey-eee {
+  background: #eee !important;
+}
+
+.medium-gray-999 {
+  background: #999 !important;
+}
+
+.light-gray-666 {
+  background: #666 !important;
+}
+
+.light-gray-c1c1c1 {
+  background: #c1c1c1 !important;
+}
