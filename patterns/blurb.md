@@ -26,7 +26,7 @@ The styles for blurbs are located in [the stylesheet named 13-group-blurb.css](h
 
 The work blurb is the most used chunk of HTML code in the Archive, so we've revised it a lot. It has to contain lots of information and allow different ways of accessing its material. The blurb is flexible, accessible, and has multiple redundancies (says the same thing in different ways).
 
-![Work blurb in the default Archive style](/images/workblurb.png)
+![Work blurb in the default Archive style](../images/workblurb.png)
 
 Since we usually have many blurbs listed together, the index page that holds the blurbs is coded as an HTML list, and each blurb is coded as a list item. If a page will only ever contain one blurb (e.g., the adult content warning), the blurb can be coded as a different element, such as a `div`.
 
@@ -217,7 +217,7 @@ While the HTML structure of the blurb is incredibly important and should not be 
 
 Here you see two different examples of the work blurb from the AO3, one using the default CSS and one using a skin, which have some of their fields mapped to the blurb diagram to help give you the idea.
 
-![work blurbs](/images/blurb_diagram_mapping.png)
+![work blurbs](../images/blurb_diagram_mapping.png)
 
 These blurbs use *the same HTML*. The only thing different is the CSS.
 

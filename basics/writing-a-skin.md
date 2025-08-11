@@ -24,7 +24,7 @@ The skin system is also a great way to get familiar with CSS in general or the A
 
 Here we'll walk through a simple skin that modifies the Archive's default appearance by changing fonts and colors, adding images, and adjusting margins and borders.
 
-![A user dashboard with our skin: a bright diagonal striped background, translucent white main content, and translucent yellow dashboard sections](/images/writing_a_skin_preview.png)
+![A user dashboard with our skin: a bright diagonal striped background, translucent white main content, and translucent yellow dashboard sections](../images/writing_a_skin_preview.png)
 
 For our colors and images, we'll be using a stripe pattern called [sing together](https://www.colourlovers.com/pattern/850926/sing_together) and its color palette, [like fireflies](https://www.colourlovers.com/palette/1172215/like_fireflies), both of which are by [electroCUTE!](https://www.colourlovers.com/lover/electroCUTE%21). You'll need to save and upload the background image to an image host, but because you are the only one seeing your skin, you probably don't need to worry about running out of bandwidth.
 

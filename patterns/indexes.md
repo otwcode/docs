@@ -32,6 +32,14 @@ An index can be any of the three kinds of HTML list.
 
 You can **never** have **any** other kind of index.
 
+#### HTML classes
+
+An index usually has an [object type class](../class-taxonomy#types): `work index group`, `assignment index group`, `reading index group`.
+
+These class names should almost always be singular. The main exception to this is tags: `tags index group`.
+
+If you find a plural other than `tags`, it's probably a mistake that needs to be corrected.
+
 ### dl.index
 
 `dl.index` is sometimes used to display simple paired data (e.g. on a [translated news post](https://archiveofourown.org/admin_posts/148)), but it more often functions as a sort of brief alternative to showing a full blurb (or a full list of blurbs).

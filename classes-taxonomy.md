@@ -121,6 +121,8 @@ We can divide types into two abstract classes:
 
 The abstract class `.object` encompasses classes that correspond with database records. These are typically a *type* of record that corresponds with a model name, such as `.work` or `.user`, but sometimes they're *specific* records, such as the `.rating-teen` class that corresponds with the [Teen and Up Audiences rating tag](https://archiveofourown.org/tags/Teen%20And%20Up%20Audiences).
 
+These class names are almost always singular, with the exception of `tags`.
+
 * .user
 * .work
   * .chapter
@@ -160,6 +162,7 @@ The abstract class `.object` encompasses classes that correspond with database r
   * .prompt
   * .item
   * .signup
+  * .assignment
 
 ### data
 
@@ -181,6 +184,7 @@ The abstract class `.data` encompasses classes that describe the type or format 
 * .notice
 * .error
 * .icon
+* .rss
 * .symbol
   * .help
   * .question
