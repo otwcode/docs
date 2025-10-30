@@ -43,13 +43,13 @@ Regions correspond with [ARIA regions and HTML5 sectioning elements](https://www
 
 ### .group
 
-* [.index](/patterns/indexes)
-* [.listbox](/patterns/listbox)
-* [.meta](/patterns/meta)
-* [.blurb](/patterns/blurb)
-* [.preface](/patterns/preface)
-* [.comments](/patterns/comments)
-* [.stats](/patterns/stats)
+* [.index](/docs/patterns/indexes)
+* [.listbox](/docs/patterns/listbox)
+* [.meta](/docs/patterns/meta)
+* [.blurb](/docs/patterns/blurb)
+* [.preface](/docs/patterns/preface)
+* [.comments](/docs/patterns/comments)
+* [.stats](/docs/patterns/stats)
 
 ### .zone
 
@@ -153,7 +153,7 @@ These class names are almost always singular, with the exception of `tags`.
         * .warning-no
         * .warning-choosenotto
         * .external-work (.warnings becomes an abstract)
-      * .iswip (a state [modifier](#modifiers) presented as part of the `.required-tags` block in [blurbs](/patterns/blurb))
+      * .iswip (a state [modifier](#modifiers) presented as part of the `.required-tags` block in [blurbs](/docs/patterns/blurb))
         * .complete-yes
         * .complete-no
 * .tagset
@@ -225,7 +225,7 @@ Modifiers can be grouped into these abstract classes:
 ### State modifiers
 
 * states (abstract)
-  * [.current](/patterns/actions) (navigation modifer used to indicate the current position in the navigation options)
+  * [.current](/docs/patterns/actions) (navigation modifer used to indicate the current position in the navigation options)
   * .hidden
   * .public (bookmark)
   * .private (bookmark)
@@ -236,8 +236,8 @@ Modifiers can be grouped into these abstract classes:
   * .latest also .recent
   * .open
   * .closed
-  * .odd ([comment](/patterns/comments))
-  * .even ([comment](/patterns/comments))
+  * .odd ([comment](/docs/patterns/comments))
+  * .even ([comment](/docs/patterns/comments))
   * pending (abstract state)
     * .draft
     * .preview
@@ -271,7 +271,7 @@ Modifiers can be grouped into these abstract classes:
 
 ### Ability modifiers
 
-Ability modifiers apply to [interactions](/patterns/interactions).
+Ability modifiers apply to [interactions](/docs/patterns/interactions).
 
 * abilities (abstract)
   * .draggable
@@ -282,7 +282,7 @@ Ability modifiers apply to [interactions](/patterns/interactions).
 
 ### Mode modifiers
 
-Mode modifiers apply to [interactions](/patterns/interactions).
+Mode modifiers apply to [interactions](/docs/patterns/interactions).
 
 * modes (abstract)
   * .single
@@ -291,7 +291,7 @@ Mode modifiers apply to [interactions](/patterns/interactions).
 
 ## Travellers
 
-[Index](/patterns/indexes) is the most used example of the polyvalent "types or states of groups."
+[Index](/docs/patterns/indexes) is the most used example of the polyvalent "types or states of groups."
 
 * .index
 * .tree
