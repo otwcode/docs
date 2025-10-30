@@ -35,11 +35,11 @@ Our classes are how we describe and document our data, so it's very important to
 * [classes added by Rails](#rails-classes)
 * classes used by jQuery plugins, since it is easier to keep plugins up to date if we *don't* modify the class names
 * classes used by our own JavaScript, although classes that follow our naming system are strongly preferred
-* classes used on [blurbs](/patterns/blurb) to allow muting (e.g., `work-000` and `user-000`), which are also listed last for neatness
+* classes used on [blurbs](/docs/patterns/blurb) to allow muting (e.g., `work-000` and `user-000`), which are also listed last for neatness
 
 ## "What kind and where?"
 
-It might be useful to look at some [diagrams of pages](/patterns) on our Archive to really understand that in CSS, we write a path *to* places in our HTML; we don't need to give everything a unique name, because we describe it: "what kind and where".
+It might be useful to look at some [diagrams of pages](/docs/patterns) on our Archive to really understand that in CSS, we write a path *to* places in our HTML; we don't need to give everything a unique name, because we describe it: "what kind and where".
 
 For example, we use a dotted line to underline all tag links: `a.tag { border-bottom: 1px dotted; }`. If we want to change how tag links look on bookmark blurbs, we don't add a new `bookmark-tag` class in the HTML -- we just use the bookmark tags' unique path in the DOM: `.bookmark a.tag { border-bottom: none; }`
 
