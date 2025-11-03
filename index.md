@@ -30,7 +30,7 @@ Our coding practice may be radically different from anything you've done before.
 
 * [Coding Standards](/docs/coding-standards)
 * [Style Guide](/docs/style-guide)
-* [Front End Guide](/docs/front-end-user-guide)
+* [Front End Guide](/docs/front-end-guide)
 * [Design Patterns](/docs/patterns)
 
 Finally, our [Accessibility Statement](/docs/accessibility-statement) details our approach to making the Archive accessible to as many people as possible.
