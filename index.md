@@ -14,7 +14,7 @@ redirect_from:
 
 These pages are, like the Archive, a work in progress.
 
-It is not necessary to read all these pages before you start coding! Most of them are intended to be references you can use as you go along. But whether you're a beginner or have previous experience with <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>, it's very important that you familiarize yourself with [front end philosophy and structure](/docs/front-end-user-guide) as well as our [front end coding standards](/docs/coding-standards) before you submit any code that changes the front end.
+It is not necessary to read all these pages before you start coding! Most of them are intended to be references you can use as you go along. But whether you're a beginner or have previous experience with <abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr>, it's very important that you familiarize yourself with [front end philosophy and structure](/docs/front-end-guide) as well as our [front end coding standards](/docs/coding-standards) before you submit any code that changes the front end.
 
 ## Getting started with HTML and CSS
 
