@@ -106,7 +106,7 @@ Almost all of the Archive's content is inside #main, a div where the font size i
 It can be a bit difficult to get your head round using ems for margins and padding, so here are some tips:
 
 * A single space (like between words) is approximately 0.25em.
-* Since our font size in `#main` is `0.875em/1.286`, `margin: 0.643em auto;` gives you a single blank line (approximately 9px) between block elements.
+* Since our font size in `#main` is `0.875em/1.286`, `margin: 0.643em auto;` gives you a single blank line (approximately 9px) between block elements. (But watch out for [collapsing margins](https://www.smashingmagazine.com/2019/07/margins-in-css/#margin-collapsing)!)
 * Choosing values from the scale will automatically make your page look balanced.
 
 ## Resources
@@ -115,3 +115,4 @@ It can be a bit difficult to get your head round using ems for margins and paddi
 * [An Explanation of Ems](http://24ways.org/2005/an-explanation-of-ems/)
 * [How to Size Text in CSS](http://alistapart.com/article/howtosizetextincss)
 * [The Elements of Typographic Style Applied to the Web](http://webtypography.net)
+* [Everything You Need To Know About CSS Margins](https://www.smashingmagazine.com/2019/07/margins-in-css/)
